@@ -10,7 +10,7 @@ const got = require('got');
 const semver = require('semver');
 const tar = require('tar');
 
-const distBaseUrl = 'https://dl.bintray.com/lovell/sharp/';
+const distBaseUrl = 'https://s3.cn-north-1.amazonaws.com.cn/tise-libvips-mirror/';
 
 // Use NPM-provided environment variable where available, falling back to require-based method for Electron
 const minimumLibvipsVersion = process.env.npm_package_config_libvips || require('./package.json').config.libvips;
